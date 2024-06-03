@@ -1,0 +1,175 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fdf9c9;
+
+}
+
+.nav {
+  width: 100%;
+  contain: content;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid white;
+  border-radius: 5px;
+  background-color: darkgoldenrod;
+  height: 20%;
+  
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: darkgoldenrod;
+  padding-left: 2%;
+
+}
+
+.nav li {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 12px 23px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-family: system-ui;
+  font-style: upperrcase;
+  translate: 370px 0;
+  
+}
+
+.name {
+  color: black;
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  text-align: center;
+  display: inline;
+  padding-left: 38%;
+  font-size: 55px;
+  letter-spacing: 48px;
+  padding-top: 20px;
+  font-stretch: ultra-expanded
+}
+
+
+
+a:hover {
+  border: 2px solid white;
+  border-radius: 30px;
+  animation-name: x;
+
+}
+
+.main {
+  margin: auto;
+  border: 8px solid darkgoldenrod;
+  border-radius: 100px;
+  width: 88%;
+  animation-name: x;
+  animation-duration: 2.3s;
+  word-wrap: break-word;
+  
+}
+
+@keyframes x {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 88%;
+  }
+}
+
+
+.welcome {
+  color: darkgoldenrod;
+  font-size: 55px;
+  text-align: center;
+
+}
+
+.a1 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: bolder;
+  padding-left: 8%;
+
+}
+
+.codingimg {
+  width: 42%;
+  height: 42%;
+  float: right;
+
+}
+
+p {
+  text-align: center;
+  
+}
+
+@media (max-width: 600px){
+  .welcome {
+    font-size: 20px;
+  }
+
+  .a1 {
+    font-size: 11px;
+    translate: -11px 0;
+  }
+
+  .nav a {
+    font-size: 11px;
+    padding: 0 10px;
+    translate: 8px 0;
+  }
+  .name {
+    font-size: 17px;
+    text-align: center; 
+    display: block;
+    margin-left: 0;
+    padding: 1px;
+    translate: 50px 0;
+  }
+
+  .codingimg {
+    translate: 5px 40px;
+  }
+  
+  .name1 {
+    margin-right: 20%;
+  }
+  
+  .nav ul {
+    padding-left: 10%;
+    margin: auto;
+  }
+
+  p {
+   font-size: 7px;
+  
+  }
+
+  .main {
+    width: 99%;
+  }
+
+  @keyframes x {
+    0%{
+      width: 0;
+    }
+    100%{
+      width: 99%;
+    }
+  }
+}
